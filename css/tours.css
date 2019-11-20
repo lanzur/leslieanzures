@@ -1,0 +1,170 @@
+body {
+  background: #031625;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    color: white;
+    font-size:100px;
+    text-align: center;
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+}
+
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    color: white;
+    font-size:50px;
+    text-align: center;
+  margin: 0 0 .5em;
+  font-weight: normal;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+}
+.row .col {
+  flex: 1;
+}
+.row .col:last-child {
+  margin-left: 1em;
+}
+
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+  justify-content: space-between;
+  padding: 1em;
+  background: #2c3e50;
+  font-weight: bold;
+  cursor: pointer;
+  /* Icon */
+}
+.tab-label:hover {
+  background: #1a252f;
+}
+.tab-label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all .35s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: black;
+  transition: all .35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #1a252f;
+}
+input:checked + .tab-label::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+
+ /* The Grid */
+
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:100px;
+}
+
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+    outline-color: #333333;
+    outline-style: solid;
+    outline-width: thin;
+  margin:0 0 -15px 0;
+}
+
+.date {
+  display:table-cell;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  padding: 2%;
+    text-align:left;
+}
+
+.venue {
+  display:table-cell;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  padding: 2%;
+    text-align: center
+}
+
+.ticket {
+  display:table-cell;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  padding: 2%;
+    text-align: right;
+}
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: 100%;
+    margin:0;
+ }
+  
+ .item {
+  display: block;
+	width: 100%;
+  margin: 0 0 8px 0;
+ }  
+ 
+.tourone img{
+        align-items: center;
+    width: 50%;
+    }

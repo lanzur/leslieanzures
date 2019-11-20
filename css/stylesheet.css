@@ -1,0 +1,184 @@
+/*---------LANDING PAGE------*/
+
+.container {
+    width: 100%;
+    margin: 0 auto; /* centering the page*/
+}
+
+/* navbar */
+.navbar_land {
+    position: fixed;
+    width: 100%;
+    /* fixed navbar*/
+}
+
+.navbar_land ul {
+    text-align: center;
+
+}
+.navbar_land ul li :hover {
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 3px 6px 9px rgb(170, 255, 0);
+    color:white;
+
+}
+.navbar_land ul li {
+   border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    display: inline;
+    padding: 30px;
+    margin: 30px;
+}
+.navbar_land ul li a {
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 40px;
+    color: rgb(170, 255, 0);
+    text-transform: uppercase;
+    
+}
+
+body {
+  background: #000;
+}
+
+.heading_landing{
+    font-family: 'Covered By Your Grace', cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 10px;
+}
+
+h1: hover{
+    outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 3px 6px 9px white;
+    color:rgb(170, 255, 0);
+}
+
+
+.split_showcase{
+    align-content: center;
+}
+.navbar_land ul li img{
+    width: 15px;
+    margin-right: 5px;
+}
+footer{
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:;
+    text-align: center;
+    position: fixed;
+    width: 1980px;
+    bottom:0;
+}
+
+
+
+
+/*---------BIOGRAPHY------*/
+
+
+/*---------GALLERY------*/
+
+
+.navbar_gal {
+    position: inherit;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    
+    padding: 20px;
+    z-index: 1200;
+    /* fixed navbar*/
+}
+
+.index{
+    text-align: left;
+    ;
+    float: left;
+    margin-left: 50px;
+    
+}
+.index a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 80px;
+    color:white;
+    text-transform: uppercase;
+}
+.index a:hover {
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 3px 6px 9px white;
+    color:rgb(170, 255, 0);
+}
+
+.indeximg{
+    width:15px;
+}
+
+#anchor{
+    position: relative;
+padding-top: 100px;
+}
+
+.navbar{
+    text-align: left
+        
+}
+
+.navbar_gal ul {
+    float:right;
+    margin: 30px;
+    margin-right: 80px;
+    padding:auto;
+
+}
+.navbar_gal ul li :hover {
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 3px 6px 9px rgb(170, 255, 0);
+    color:white;
+
+}
+.navbar_gal ul li {
+   border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    display: inline;
+    padding: 30px;
+    margin: 30px;
+}
+.navbar_gal ul li a {
+    text-decoration: none;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 40px;
+    color: rgb(170, 255, 0);
+    text-transform: uppercase;
+    
+}
+
+.navbar_gal ul li img{
+    width: 15px;
+    margin-right: 5px;
+}
+/*---------CHRONOLOGY------*/
+.tourone img{
+        align-items: center;
+    width: 50%;
+    }
